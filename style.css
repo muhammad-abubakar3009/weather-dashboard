@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=Inter:wght@400;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: linear-gradient(135deg, #0f1b33, #1e3a5f);
+  color: #e8eef5;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+#CityInput {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 22px;
+  padding: 10px;
+  color: #e8eef5;
+  font-size: 20px;
+}
+#CityInput::placeholder {
+  color: #c4c4bc;
+}
+#CityInput:focus {
+  outline: none;
+  border-color: #fdb813;
+}
+#searchbtn {
+  background-color: #fdb813;
+  color: #0f1b33;
+  border: 1px solid #fdb813;
+  padding: 13px;
+  border-radius: 22px;
+}
+#searchbtn:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+#temperature {
+  font-family: "Fraunces", serif;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 100px;
+}
+#CityName {
+  font-size: 28px;
+}
+#WeatherDescription {
+  color: #8fa3bf;
+  font-size: 16px;
+}
